@@ -1,5 +1,22 @@
-<template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+<template lang="pug">
+  #about
+    VResume
+    VWork
+    VFooter
 </template>
+<script lang="ts">
+import { Component, Vue } from "vue-property-decorator";
+import VResume from "@/components/VResume.vue";
+import VWork from "@/components/VWork.vue";
+import VFooter from "@/components/VFooter.vue";
+
+
+@Component({
+  components: {
+    VResume, 
+    VWork,
+    VFooter,
+  },
+})
+export default class AboutView extends Vue {}
+</script>
