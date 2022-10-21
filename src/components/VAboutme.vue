@@ -12,7 +12,7 @@
               span.second-block 櫻木 健太
             li
               span.first-block Github Repository:
-              span.second-block https://xn--y8jl2j1b.com/
+              span.second-block https://github.com/Keeeeeent/portfolio
         .col-md-6
           p 
             |私は開発現場ではたらくことでユーザーやユーザーと関わりがある方々のお力になり、微力ながら社会貢献をしたいと考えています。

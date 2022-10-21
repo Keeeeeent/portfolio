@@ -31,7 +31,7 @@ export default class TimelineInverted extends Vue {
   private company!: string;
   @Prop({ type: String, required: true })
   private title!: string;
-  @Prop({ type: Boolean, required: true })
+  @Prop({ type: Boolean})
   private timelineclass!: boolean;
 }
 </script>
